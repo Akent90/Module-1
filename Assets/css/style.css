@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header, nav, main, section, aside, footer {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2a607c;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    font-size: 48px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.float-left, .float-right {
+    width: 50%;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.benefits {
+    background-color: #2589bd;
+    color: #ffffff;
+    padding: 20px;
+    clear: both;
+}
+
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+}
+
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.footer {
+    background-color: #2a607c;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    clear: both;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    header, nav, main, section, aside, footer {
+        padding: 10px;
+    }
+
+    .float-left, .float-right {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
